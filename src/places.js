@@ -8,10 +8,10 @@ function createPlacesClient(algoliasearch) {
 
     opts = opts && cloneDeep(opts) || {};
     opts.hosts = opts.hosts || [
-      'places-dsn.algolia.net',
-      'places-1.algolianet.com',
-      'places-2.algolianet.com',
-      'places-3.algolianet.com'
+      'places-develop-dsn-algolianet.drmax.cz',
+      'places-1-develop-algolianet.drmax.cz',
+      'places-1-develop-algolianet.drmax.cz',
+      'places-1-develop-algolianet.drmax.cz'
     ];
 
     // allow initPlaces() no arguments => community rate limited
